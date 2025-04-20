@@ -1,3 +1,5 @@
+## What I Did – Step-by-Step Summary
+
 1. Created a simple node.js file with home url.
 2. Wrote a Docker file which is a step-by-step recipe that tells Docker how to build a container image for our app.
    - Used node base image
@@ -37,7 +39,7 @@
    
 
     
- 💡 I’ve now: 
+ ## 💡 I’ve now: 
 - Built a full Node.js app
 
 - Dockerized it
