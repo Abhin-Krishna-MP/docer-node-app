@@ -18,7 +18,7 @@
    - Configured a security group to allow access to the port 22(SSH) and 3000(our app)
    - Generated a .pem key pair to securely SSH into the instance
 6. Opened EC2 in terminal.
-   - ssh -i pem_file ubuntu@<public-ip>
+   - ssh -i pem_file ubuntu@public-ip
    - -i specifies the identity of the file
    - ubuntu is default user
    - <public-ip> is the IP address of EC2 instance
@@ -33,4 +33,13 @@
     - docker build
     - docker run
 10. Finally the app was live at.
-    - http://<EC2-public-ip>:3000
+    - http://EC2-public-ip:3000
+   
+
+    
+ 💡 I’ve now: 
+- Built a full Node.js app
+
+- Dockerized it
+
+- Deployed it to a cloud server (EC2) using Docker
